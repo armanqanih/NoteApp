@@ -8,7 +8,7 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "Gradle Is Ready"
+rootProject.name = "Note App"
 include ':app'
 include ':benchmark'
 include ':presentation'

@@ -1,55 +1,28 @@
 package org.lotka.xenonx.presentation.theme
 
-
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
-
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import org.lotka.xenonx.presentation.R
-
-
-val yekanBakh = FontFamily(
-    Font(R.font.ubuntu_light, FontWeight.Light),
-    Font(R.font.ubuntu_regular, FontWeight.Normal),
-    Font(R.font.ubuntu_medium, FontWeight.Medium),
-    Font(R.font.ubuntu_bold, FontWeight.Bold),
-    Font(R.font.ubuntu_bold, FontWeight.Black),
-)
-
+import androidx.compose.ui.unit.sp
 
 // Set of Material typography styles to start with
-val KilidTypography = Typography(
-    h6 = TextStyle(
-        fontFamily = yekanBakh,
-        fontWeight = FontWeight.Black,
-        color = newPrimaryTextColor
-
-    ),
-    h5 = TextStyle(
-        fontFamily = yekanBakh,
-        fontWeight = FontWeight.Bold,
-        color = newPrimaryTextColor
-    ),
-    h4 = TextStyle(
-        fontFamily = yekanBakh,
-        fontWeight = FontWeight.SemiBold,
-        color = newPrimaryTextColor
-    ),
-    h3 = TextStyle(
-        fontFamily = yekanBakh,
-        fontWeight = FontWeight.Medium,
-        color = newPrimaryTextColor
-    ),
-    h2 = TextStyle(
-        fontFamily = yekanBakh,
+val Typography = Typography(
+    body1 = TextStyle(
+        fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
-        color = newPrimaryTextColor
+        fontSize = 16.sp
+    )
+    /* Other default text styles to override
+    button = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.W500,
+        fontSize = 14.sp
     ),
-    h1 = TextStyle(
-        fontFamily = yekanBakh,
-        fontWeight = FontWeight.Light,
-        color = newThirdTextColor,
-    ),
+    caption = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp
+    )
+    */
 )
