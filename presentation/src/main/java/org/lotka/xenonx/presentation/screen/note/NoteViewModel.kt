@@ -1,4 +1,4 @@
-package org.lotka.xenonx.presentation.screen
+package org.lotka.xenonx.presentation.screen.note
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

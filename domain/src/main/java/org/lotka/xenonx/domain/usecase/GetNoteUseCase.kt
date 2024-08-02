@@ -11,7 +11,6 @@ class GetNotesUseCase (
     private val repository: NoteRepository
 ){
 
-
     suspend operator fun invoke(
         noteOrder: NoteOrder = NoteOrder.Date(OrderType.Descending)
     ): Flow<List<Note>> {

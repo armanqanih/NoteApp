@@ -1,4 +1,4 @@
-package org.lotka.xenonx.presentation.screen
+package org.lotka.xenonx.presentation.screen.note
 
 import org.lotka.xenonx.domain.model.Note
 import org.lotka.xenonx.domain.util.NoteOrder
